@@ -12,6 +12,4 @@ const courseSchema = new mongoose.Schema({
 });
 
 
-
-// we write the model name in a single case, and the compiler will transform it to the uppercase and الجمع
 module.exports = mongoose.model("Course", courseSchema);
